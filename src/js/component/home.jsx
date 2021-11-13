@@ -1,12 +1,11 @@
 import React from "react";
-import { ToDoListHeader } from "./ToDoListHeader.jsx";
-import { ToDoListForm } from "./ToDoListForm.jsx";
+
+import ToDoList from "./ToDoList.jsx";
 //create your first component
 const Home = () => {
 	return (
 		<>
-			<ToDoListHeader />
-			<ToDoListForm />
+			<ToDoList />
 		</>
 	);
 };
